@@ -28,9 +28,6 @@ export default function WeatherApp(){
   return (
     <>
       <WeatherForm onChangeCity={handleChangeCity}/>
-       {
-        // weather === null ? <div>{}</div> : <div>{weather?.location.name}: {weather?.current.temp_c}*</div>
-       }
       <WeatherMainInfo weather={weather}/>
     </>
   );
